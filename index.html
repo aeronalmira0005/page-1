@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spray n' Go</title>
-  <link rel="icon" type="image/svg+xml" href="Images/icon.png">
+  <link rel="icon" type="image/svg+xml" href="Images/icoon.png">
   <link rel="stylesheet" href="css/modals.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/menu.css">
@@ -23,7 +23,7 @@
 
   <div class="menu-wrap">
 
-    <a href="index.html"><img src="Logo.png" class="logo logoresize"></a>
+    <a href="#"><img src="Logo.png" class="logo logoresize"></a>
 
     <div class="topnav" id="myTopnav">
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -583,7 +583,31 @@
       <button type="button" class="accept-cookie">ACCEPT</button>
     </div>
   </div>
-<script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=UcK6bH"></script>
+
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml: true,
+        version: 'v8.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <!-- Your Chat Plugin code -->
+  <div class="fb-customerchat" attribution=setup_tool page_id="105441090988022" theme_color="#bebebe">
+  </div>
+
 </body>
 
 </html>
