@@ -197,13 +197,13 @@ header {
 }
 
 .btn {
-  display: inline-block;
+  /* display: inline-block; */
   position: absolute;
   border-radius: 10px;
   background-color: black;
   color: #fff;
   padding: 1rem 1.5rem;
-  margin-top: 9.5rem;
+  margin-top: 150px;
   text-decoration: none;
   scroll-behavior: smooth;
   margin-left: auto;
@@ -229,7 +229,7 @@ header {
 .showcase .ez {
   position: absolute;
   display: block;
-  margin-top: 4rem;
+  margin-top: 50px;
   height: 8%;
 }
 
@@ -768,7 +768,7 @@ h3.logo-text{
   .showcase .ez {
     height: 2rem;
     margin: 0;
-    top: 45vh;
+    top: 47vh;
   }
 
   a.btn {
@@ -777,7 +777,7 @@ h3.logo-text{
     height: 2rem;
     margin-top: 0.5rem;
     padding-bottom: 0;
-    top: 47.5vh;
+    top: 50vh;
   }
 
   .menu-wrap .logo {
