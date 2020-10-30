@@ -197,7 +197,7 @@ header {
 }
 
 .btn {
-  /* display: inline-block; */
+  display: inline-block;
   position: absolute;
   border-radius: 10px;
   background-color: black;
